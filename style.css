@@ -1,0 +1,99 @@
+body {
+    text-align: center;
+}
+
+#home {
+    background-color: antiquewhite
+}
+
+p1 {
+    font-size: 40px;
+    font-weight: 400;
+    font-family: bookman old style;
+}
+
+p2 {
+    font-size: 25px;
+}
+
+#div {
+    font-size: 30px;
+    font-family: bookman old style;
+}
+
+#grid {
+    background-color: lightpink;
+}
+
+#slide {
+    background-color: hotpink;
+}
+
+hr {
+    height: 7px;
+    background-color: black;
+}
+
+#image {
+    height: 230px;
+    width: 170px;
+}
+img {
+ transition: transform .2s;
+}
+
+img:hover {
+    transform: scale(.9);
+}
+
+.img-responsive {
+    height: 300px;
+    width: 220px;
+}
+
+#myCarousel img {
+    height: 300px;
+    margin-top: 35px;
+}
+.carousel-inner p {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    color: white;
+    font-size: 20px;
+}
+
+.menu {
+    font-family: sans-serif;
+    position: fixed;
+    top: 10px;
+    width: 100%;
+    z-index: 10;
+    cursor: pointer;
+    background-color: white;
+    list-style: none;
+}
+
+.links {
+    color: deeppink;
+    padding-left: 33px;
+    padding-right: 25px;
+    font-family: bookman ol style;
+    font-size: 30px;
+    display: inline;
+}
+
+.links:hover {
+    background-color:lightblue;
+    font-size: 37px;
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+    color: crimson;
+    text-shadow: 2px 2px gainsboro;
+}
+
+html {
+    scroll-behavior: smooth;
+}
